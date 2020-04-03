@@ -53,5 +53,9 @@ public function wire()
 	{
 		$this->load->view('welcome_message');
 	}
+	public function mouse1()
+	{
+		$this->load->view('welcome_message');
+	}
 
 }
