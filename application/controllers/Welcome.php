@@ -31,12 +31,12 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
-<<<<<<< HEAD
+
 	public function paymet()
 	{
 		$this->load->view('welcome_message');
 	}
-=======
+
 	public function login()
 	{
 		$this->load->view('welcome_message');
@@ -46,5 +46,5 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
->>>>>>> master
+
 }
